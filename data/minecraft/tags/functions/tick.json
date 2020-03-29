@@ -1,0 +1,8 @@
+{
+	"values": [
+		"es:config/thrust",
+		"es:config/fuel",
+		"es:tick",
+		"es:config/reset"
+	]
+}

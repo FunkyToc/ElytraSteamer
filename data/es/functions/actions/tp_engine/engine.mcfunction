@@ -1,0 +1,10 @@
+execute if score @s ES_thrust matches 10..20 anchored eyes if block ^ ^ ^0.1 minecraft:air run function es:actions/tp_engine/burn01
+execute if score @s ES_thrust matches 21..30 anchored eyes if block ^ ^ ^0.2 minecraft:air run function es:actions/tp_engine/burn02
+execute if score @s ES_thrust matches 31..40 anchored eyes if block ^ ^ ^0.3 minecraft:air run function es:actions/tp_engine/burn03
+execute if score @s ES_thrust matches 41..50 anchored eyes if block ^ ^ ^0.4 minecraft:air run function es:actions/tp_engine/burn04
+execute if score @s ES_thrust matches 51..60 anchored eyes if block ^ ^ ^0.5 minecraft:air run function es:actions/tp_engine/burn05
+execute if score @s ES_thrust matches 61..70 anchored eyes if block ^ ^ ^0.6 minecraft:air run function es:actions/tp_engine/burn06
+execute if score @s ES_thrust matches 71..80 anchored eyes if block ^ ^ ^0.7 minecraft:air run function es:actions/tp_engine/burn07
+execute if score @s ES_thrust matches 81..90 anchored eyes if block ^ ^ ^0.8 minecraft:air run function es:actions/tp_engine/burn08
+execute if score @s ES_thrust matches 91..99 anchored eyes if block ^ ^ ^0.9 minecraft:air run function es:actions/tp_engine/burn09
+execute if score @s ES_thrust matches 100 anchored eyes if block ^ ^ ^1.0 minecraft:air run function es:actions/tp_engine/burn10

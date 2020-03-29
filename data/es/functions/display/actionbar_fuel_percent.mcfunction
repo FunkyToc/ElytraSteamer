@@ -1,0 +1,1 @@
+title @s actionbar ["",{"text":"Thrust "},{"score":{"name":"@s","objective":"ES_sneaktime"},"color":"red"},{"text":" \u2551 "},{"text":"Fuel "},{"score":{"name":"@s","objective":"ES_fuel_percent"},"color":"gold"},{"text":"%"}]

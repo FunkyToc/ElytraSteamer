@@ -1,0 +1,6 @@
+execute unless score SmokeParticules ES_options matches 2 if score McVersion ES_options matches 113 if score @s[scores={ES_sneaking=0}] ES_thrust matches 00..100 run function es:particules/passive_1.13
+execute unless score SmokeParticules ES_options matches 2 if score McVersion ES_options matches 115 if score @s[scores={ES_sneaking=0}] ES_thrust matches 00..100 run function es:particules/passive_1.15
+execute if score McVersion ES_options matches 115 if score @s[scores={ES_sneaking=1}] ES_thrust matches 00..30 run function es:particules/warming_s
+execute if score McVersion ES_options matches 115 if score @s[scores={ES_sneaking=1}] ES_thrust matches 31..70 run function es:particules/warming_m
+execute if score McVersion ES_options matches 115 if score @s[scores={ES_sneaking=1}] ES_thrust matches 71..100 run function es:particules/warming_l
+execute if score @s[scores={ES_sneaking=1}] ES_thrust matches 100 run function es:particules/afterburn

@@ -1,0 +1,1 @@
+particle minecraft:lava ~ ~0.2 ~ 0 0 0 0.01 1
