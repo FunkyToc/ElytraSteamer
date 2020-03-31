@@ -1,0 +1,14 @@
+execute if entity @s[x_rotation=-90..31] run particle minecraft:dust 1 1 1 0.3 ^-1.4 ^0.6 ^1.1 0 0 0 0 1
+execute if entity @s[x_rotation=-90..31] run particle minecraft:dust 1 1 1 0.3 ^1.4 ^0.6 ^1.1 0 0 0 0 1
+execute if entity @s[x_rotation=30..39] run particle minecraft:dust 1 1 1 0.3 ^-1.3 ^0.6 ^1.05 0 0 0 0 1
+execute if entity @s[x_rotation=30..39] run particle minecraft:dust 1 1 1 0.3 ^1.3 ^0.6 ^1.05 0 0 0 0 1
+execute if entity @s[x_rotation=40..49] run particle minecraft:dust 1 1 1 0.3 ^-1.2 ^0.6 ^1.0 0 0 0 0 1
+execute if entity @s[x_rotation=40..49] run particle minecraft:dust 1 1 1 0.3 ^1.2 ^0.6 ^1.0 0 0 0 0 1
+execute if entity @s[x_rotation=50..59] run particle minecraft:dust 1 1 1 0.3 ^-1.0 ^0.6 ^0.9 0 0 0 0 1
+execute if entity @s[x_rotation=50..59] run particle minecraft:dust 1 1 1 0.3 ^1.0 ^0.6 ^0.9 0 0 0 0 1
+execute if entity @s[x_rotation=60..69] run particle minecraft:dust 1 1 1 0.3 ^-0.8 ^0.6 ^0.8 0 0 0 0 1
+execute if entity @s[x_rotation=60..69] run particle minecraft:dust 1 1 1 0.3 ^0.8 ^0.6 ^0.8 0 0 0 0 1
+execute if entity @s[x_rotation=70..79] run particle minecraft:dust 1 1 1 0.3 ^-0.6 ^0.6 ^0.7 0 0 0 0 1
+execute if entity @s[x_rotation=70..79] run particle minecraft:dust 1 1 1 0.3 ^0.6 ^0.6 ^0.7 0 0 0 0 1
+execute if entity @s[x_rotation=80..90] run particle minecraft:dust 1 1 1 0.3 ^-0.4 ^0.6 ^0.5 0 0 0 0 1
+execute if entity @s[x_rotation=80..90] run particle minecraft:dust 1 1 1 0.3 ^0.4 ^0.6 ^0.5 0 0 0 0 1

@@ -1,3 +1,4 @@
+scoreboard players remove ES_speed
 scoreboard players remove ES_sneaking
 scoreboard players remove ES_sneaktime
 scoreboard players remove ES_fuel

@@ -11,9 +11,12 @@ execute if score SmokeParticules ES_options matches 1..2 if score @s[scores={ES_
 execute if score SmokeParticules ES_options matches 1..2 as @s[scores={ES_sneaking=1},tag=ES_bang] run function es:actions/bang
 execute if score SmokeParticules ES_options matches 1..2 if score @s ES_thrust matches 0..79 run tag @s remove ES_bang
 
+# trails
+execute unless score SmokeParticules ES_options matches 2 as @s[nbt={FallFlying:1b},scores={ES_speed=500..}] at @s run function es:particules/trails
+
 # engine ON/OFF
-execute as @s[x_rotation=90,scores={ES_engine=0,ES_sneaktime=1..40}] run function es:actions/engine_on
-execute as @s[x_rotation=-90,scores={ES_engine=1,ES_sneaktime=0}] run function es:actions/engine_off
+execute as @s[x_rotation=90,scores={ES_engine=0,ES_sneaktime=1..}] run function es:actions/engine_on
+execute as @s[x_rotation=-90,scores={ES_engine=1,ES_sneaktime=1}] run function es:actions/engine_off
 execute as @s[scores={ES_engine=1,ES_sneaktime=0}] run function es:particules/engine_passive
 
 # sounds

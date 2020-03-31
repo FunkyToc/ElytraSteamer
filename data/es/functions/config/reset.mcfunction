@@ -1,3 +1,5 @@
+#speed
+scoreboard players set @a ES_speed 0
 # sneaktime
 scoreboard players remove @a[scores={ES_fuel=..0}] ES_sneaktime 2
 scoreboard players remove @a[scores={ES_sneaking=0,ES_sneaktime=1..}] ES_sneaktime 1

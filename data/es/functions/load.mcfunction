@@ -1,3 +1,4 @@
+scoreboard objectives add ES_speed minecraft.custom:minecraft.aviate_one_cm
 scoreboard objectives add ES_sneaking minecraft.custom:minecraft.sneak_time {"text":"ES_sneaking","color":"gold"}
 scoreboard objectives add ES_sneaktime minecraft.custom:minecraft.sneak_time {"text":"ES_sneaktime","color":"gold"}
 scoreboard objectives add ES_fuel dummy {"text":"ES_fuel","color":"gold"}
