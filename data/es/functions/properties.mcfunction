@@ -9,7 +9,10 @@
 # Thoses properties affects the entire map/server and all players
 
 
-## CONFIG
+### CONFIG
+
+
+## Fuel
 
 # Player max fuel limit (mL)
 # Default : 60000
@@ -38,12 +41,8 @@ scoreboard players set FlightRefuel ES_options 1
 # Default : 1
 scoreboard players set AirRefuel ES_options 1
 
-# Ground ignite
-# Max thrust on ground ignite the floor (keep mode)
-# Default : 1
-# 0 : Disable ignite
-# 1 : Enable ignite
-scoreboard players set GroundCombustion ES_options 1
+
+## Display
 
 # HUD in actionbar
 # 0 : Disable hud
@@ -61,6 +60,16 @@ scoreboard players set SmokeParticules ES_options 1
 # 0 : Disable sounds
 # 1 : Enable sounds
 scoreboard players set EngineSounds ES_options 1
+
+
+## Other
+
+# Ground ignite
+# Max thrust on ground ignite the floor (keep mode)
+# Default : 1
+# 0 : Disable ignite
+# 1 : Enable ignite
+scoreboard players set GroundCombustion ES_options 1
 
 # Thrust engine
 # 1 : Entity engine (smoother, laggy)
