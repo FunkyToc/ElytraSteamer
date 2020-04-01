@@ -10,6 +10,7 @@ scoreboard objectives add ES_options dummy {"text":"ES_options","color":"gold"}
 scoreboard objectives add ES_engine trigger {"text":"SteamerStart","color":"gold"}
 
 scoreboard players set MaxThrust ES_thrust 247
+scoreboard players set BangThrust ES_thrust 20
 scoreboard players set SoundLoop ES_thrust 40
 scoreboard players set SoundCd ES_thrust 0
 scoreboard players set 10 ES_thrust 10

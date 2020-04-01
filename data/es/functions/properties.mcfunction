@@ -5,8 +5,8 @@
 ### And a big amount of time
 
 ## PROPERTIES
-# Modify parameters from datapack
-# Thoses properties affects the entire map/server and all players
+# Enable or disable datapack's options
+# Thoses properties affects the entire map/server
 
 
 ### CONFIG
