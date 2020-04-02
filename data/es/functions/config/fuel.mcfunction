@@ -7,8 +7,6 @@ scoreboard players set @a[scores={ES_fuel=..0}] ES_fuel 0
 # hud liter
 execute as @a run scoreboard players operation @s ES_fuel_liter = @s ES_fuel
 execute as @a run scoreboard players operation @s ES_fuel_liter /= 1000 ES_thrust
-execute as @a run scoreboard players operation MaxFuel ES_fuel_liter = MaxFuel ES_options
-execute as @a run scoreboard players operation MaxFuel ES_fuel_liter /= 1000 ES_thrust
 # hud percent
 execute as @a run scoreboard players operation @s ES_fuel_percent = @s ES_fuel
 execute as @a run scoreboard players operation @s ES_fuel_percent *= 100 ES_thrust

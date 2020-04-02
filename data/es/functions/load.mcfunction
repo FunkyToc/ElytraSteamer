@@ -23,4 +23,7 @@ tp @e[tag=ES_entity,type=!player] ~ -100 ~
 function es:properties
 function es_mcv:get_mcv
 
+scoreboard players operation MaxFuel ES_fuel_liter = MaxFuel ES_options
+scoreboard players operation MaxFuel ES_fuel_liter /= 1000 ES_thrust
+
 tellraw @a ["",{"text":"ElytraSteamer","bold":true,"color":"gold","hoverEvent":{"action":"show_text","value":"Develop with love by FunkyToc"}},{"text":" enabled ! "},{"text":"More infos on "},{"text":"planetcraft.com","color":"dark_purple","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/funkytoc/submissions/data-packs/"}}]
