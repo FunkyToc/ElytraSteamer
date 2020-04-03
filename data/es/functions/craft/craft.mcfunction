@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:elytra"}}] at @s unless entity @s[nbt={Item:{tag:{steamer:1b}}}] if block ~ ~-0.5 ~ minecraft:crafting_table if entity @e[distance=..1,nbt={Item:{id:"minecraft:furnace"}}] if entity @e[distance=..1,nbt={Item:{id:"minecraft:lava_bucket"}}] run function es:craft/transform_steamer
