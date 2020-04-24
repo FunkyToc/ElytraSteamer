@@ -41,6 +41,11 @@ scoreboard players set FlightRefuel ES_options 1
 # Default : 1
 scoreboard players set AirRefuel ES_options 1
 
+# Gas Station refuel (mL)
+# Fuel regeneration each tick in a Gas Station
+# Default : 100
+scoreboard players set GasStationRefuel ES_options 100
+
 
 ## Display
 
@@ -70,6 +75,13 @@ scoreboard players set EngineSounds ES_options 1
 # 0 : Disable ignite
 # 1 : Enable ignite
 scoreboard players set GroundCombustion ES_options 1
+
+# Gas Station creation
+# Allow gas station crafting (dispenser + coal block + lava bucket)
+# Default : 1
+# 0 : Disable gas station craft
+# 1 : Enable gas station craft
+scoreboard players set GasStation ES_options 1
 
 # Thrust engine
 # 1 : Entity engine (smoother, laggy)

@@ -27,5 +27,6 @@ scoreboard objectives remove ES_fuel_liter
 scoreboard objectives remove ES_thrust
 scoreboard objectives remove ES_options
 scoreboard objectives remove ES_engine
+function fktool:uninstall
 datapack disable "file/ElytraSteamer"
 datapack disable "file/ElytraSteamer-master"
