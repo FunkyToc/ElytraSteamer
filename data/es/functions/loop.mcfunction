@@ -12,7 +12,7 @@ execute if score SmokeParticules ES_options matches 1..2 if score @s ES_thrust m
 execute unless score SmokeParticules ES_options matches 2 as @s[nbt={FallFlying:1b},scores={ES_speed=500..}] at @s run function es:particules/trails
 
 # gas station
-execute if entity @e[type=armor_stand,tag=es_gasstation,distance=..1.8] run function es:actions/gasstation
+execute if entity @e[type=armor_stand,tag=ES_gasstation,distance=..1.8] run function es:actions/gasstation
 
 # engine ON/OFF
 execute as @s[x_rotation=90,scores={ES_engine=0,ES_sneaktime=1..}] run function es:actions/engine_on
