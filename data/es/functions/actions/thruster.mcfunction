@@ -9,5 +9,3 @@ execute if score @s ES_thrust matches 100 run function es:actions/afterburn
 
 # fuel
 scoreboard players operation @s[scores={ES_sneaking=1}] ES_fuel -= @s ES_fuel_consume
-
-tag @s remove ES_thruster

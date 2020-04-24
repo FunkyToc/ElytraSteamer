@@ -82,8 +82,3 @@ scoreboard players set GroundCombustion ES_options 1
 # 0 : Disable gas station craft
 # 1 : Enable gas station craft
 scoreboard players set GasStation ES_options 1
-
-# Thrust engine
-# 1 : Entity engine (smoother, laggy)
-# 2 : teleport engine (framed)
-scoreboard players set ThrustEngine ES_options 1

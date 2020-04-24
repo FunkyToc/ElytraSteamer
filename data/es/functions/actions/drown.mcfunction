@@ -11,5 +11,3 @@ execute if score @s[scores={ES_fuel=1..}] ES_thrust matches 81..100 run effect g
 
 # fuel
 scoreboard players operation @s[scores={ES_sneaking=1}] ES_fuel -= @s ES_fuel_consume
-
-tag @s remove ES_drown

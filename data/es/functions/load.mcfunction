@@ -20,8 +20,8 @@ scoreboard players set 1000 ES_thrust 1000
 
 tp @e[tag=ES_entity,type=!player] ~ -100 ~
 
+scoreboard players set ThrustEngine ES_options 1
 function es:properties
-function es_mcv:get_mcv
 
 scoreboard players operation MaxFuel ES_fuel_liter = MaxFuel ES_options
 scoreboard players operation MaxFuel ES_fuel_liter /= 1000 ES_thrust
