@@ -1,4 +1,3 @@
-scoreboard players reset McVersion ES_options
 scoreboard players reset MaxFuel ES_options
 scoreboard players reset MaxFuel ES_fuel_liter
 scoreboard players reset ConsumeFuel ES_options
