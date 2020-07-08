@@ -34,12 +34,12 @@ scoreboard players set GroundRefuel ES_options 5
 # Player fly auto refuel (mL)
 # Fuel regeneration each tick during a flight
 # Default : 1
-scoreboard players set FlightRefuel ES_options 1
+scoreboard players set FlightRefuel ES_options 0
 
 # Player air auto refuel (mL)
 # Fuel regeneration each tick in jetpack/water
-# Default : 1
-scoreboard players set AirRefuel ES_options 1
+# Default : 0
+scoreboard players set AirRefuel ES_options 0
 
 # Gas Station refuel (mL)
 # Fuel regeneration each tick in a Gas Station
