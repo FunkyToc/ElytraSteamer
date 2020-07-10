@@ -1,1 +1,1 @@
-execute if score McVersion fktool matches ..115 run effect give @s minecraft:levitation 1 4 true
+execute if score McVersion fktool matches ..11500 run effect give @s minecraft:levitation 1 4 true

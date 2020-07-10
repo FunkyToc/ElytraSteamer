@@ -1,4 +1,7 @@
 scoreboard objectives remove fktool
+scoreboard players reset McVersion fktool
+scoreboard players reset Biome fktool
+scoreboard players reset Rand fktool
 # const
 scoreboard players reset #-1 fktool
 scoreboard players reset #1 fktool
