@@ -1,0 +1,1 @@
+give @s minecraft:elytra{steamer:1b} 1
