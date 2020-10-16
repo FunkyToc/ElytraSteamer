@@ -10,4 +10,4 @@ execute if score SoundCd ES_thrust matches ..0 run scoreboard players operation 
 scoreboard players remove SoundCd ES_thrust 1
 scoreboard players set @a ES_sneaking 0
 # entity engine lifetime
-execute if score ThrustEngine ES_options matches 1 if entity @e[tag=ES_entity] run function es:config/entity_engine
+execute if score ThrustEngine ES_options matches 1 if entity @e[type=minecraft:slime,tag=ES_entity] run function es:config/entity_engine
